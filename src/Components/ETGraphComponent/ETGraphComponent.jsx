@@ -26,10 +26,15 @@ function ETGraphComponent() {
   return (
     <div className="col-md-12 graph-container">
       
+      <h3 className="text-center m-2 total-amount-heading">💲500</h3>
+      <br />
+      
+      
+
       <BarChart
         // style={{ backgroundColor: "red" }}
         width={1000}
-        height={300}
+        height={200}
         data={data}
      
         margin={{

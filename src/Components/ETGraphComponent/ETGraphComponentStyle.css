@@ -1,5 +1,9 @@
 .graph-container{
     background-color:#2C3333;
     overflow-x: scroll;
-    height:50%;
+    height:60%;
+}
+
+.total-amount-heading{
+    color:rgb(255, 255, 255)
 }

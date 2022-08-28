@@ -1,12 +1,13 @@
 import React from "react";
 import ETGraphComponent from "../../Components/ETGraphComponent/ETGraphComponent";
+import ETTableComponent from "../../Components/ETTableComponent/ETTableComponent";
 
 import "./ExpenseTrackerIndexPageStyle.css";
 
 function ExpenseTrackerIndexPage() {
   return (
     <div className="container etip-main-container">
-      Expense tracker
+      
       <div className="row"></div>
       <div className="row etip-graph-container">
         <ETGraphComponent />
@@ -15,6 +16,9 @@ function ExpenseTrackerIndexPage() {
         <div className="graph-btn"></div>
         <div className="detail-btn"></div>
       </div>
+      <button className="btn btn-primary">Add</button>
+      
+      <ETTableComponent/>
     </div>
   );
 }

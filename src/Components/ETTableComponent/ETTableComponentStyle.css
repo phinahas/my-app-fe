@@ -1,0 +1,22 @@
+.table-main-layout{
+    border: 2px solid white;
+    height: 300px;
+    overflow-y: scroll;
+    border-style: inset;
+    border-radius: 5px;
+}
+
+.table-content-div{
+    margin-top:10px;
+    display: flex;
+    border: 1px solid #395B64;
+    align-items:center;
+    justify-content:space-around;
+    border-radius: 15px;
+    box-shadow: 1px 2px #395B64;
+
+}
+
+.table-main-layout::-webkit-scrollbar {
+    display: none;
+}
