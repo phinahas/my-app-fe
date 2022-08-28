@@ -1,0 +1,25 @@
+
+.etip-graph-container{
+    height:100%;
+}
+
+.toggler-main-layout{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    /* background-color:aqua */
+}
+
+.graph-btn, .detail-btn{
+    background-color: #49FF00;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.detail-btn{
+    background-color:#FF0075;
+    margin-left:10px;
+}
